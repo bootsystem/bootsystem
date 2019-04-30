@@ -1,5 +1,5 @@
 <center>
-  <img src="./bootsystem.svg" />
+  <img width="160" src="./bootsystem.svg" />
   <h1>bootsystem</h1>
   <p>A modern implementation of Bootstrap using Styled-Components and Styled-System.</p>
 </center>
