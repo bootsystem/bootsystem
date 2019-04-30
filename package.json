@@ -47,9 +47,9 @@
     }
   },
   "author": "Imed Adel <aadelimed@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/bootsystem/bootsystem",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/bootsystem/bootsystem",
   "keywords": [
     "react-component"
   ]
