@@ -1,15 +1,15 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
 
-import Example from '../../src'
+import { Box } from '../../src';
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>bootsystem Demo</h1>
-      <Example/>
-    </div>
-  }
-}
+const Demo = () => (
+  <div>
+    <h1>bootsystem Demo</h1>
+    <Box color="#fff" bg="tomato">
+      Tomato
+    </Box>
+  </div>
+);
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'));

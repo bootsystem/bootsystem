@@ -1,9 +1,8 @@
-import React, {Component} from 'react'
+import styled from 'styled-components';
+import { color } from 'styled-system';
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+const Box = styled.div`
+  ${color}
+`;
+
+export { Box };
